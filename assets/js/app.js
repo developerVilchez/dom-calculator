@@ -1,5 +1,5 @@
 //Variables globales
-// El scope y el hoisting de las variables : const: cuando no cambia!
+// El scope y el hoisting de las variables : const: cuando no cambia 
 const divContainerButtons = document.querySelector('.container-botones');
 let inputShowValue = document.querySelector('input[type="text"]')
 let txtInputValue = '';
@@ -25,7 +25,7 @@ let handlerEventClick = function (e) {
   }
 
   if (e.target.value === 'C') {
-    console.log(txtInputValue);
+    txtInputValue = '';
     inputShowValue.value = '0';
     localStorage.clear();
     ulContainer.textContent = '';
