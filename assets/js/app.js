@@ -25,6 +25,7 @@ let handlerEventClick = function (e) {
   }
 
   if (e.target.value === 'C') {
+    console.log(txtInputValue);
     inputShowValue.value = '0';
     localStorage.clear();
     ulContainer.textContent = '';
